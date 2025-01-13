@@ -2,7 +2,7 @@
 /// <reference types="astro/client" />
 
 type Runtime = import("@astrojs/cloudflare").Runtime<Env>
-import { type User } from "@supabase/supabase-js"
+import type { User } from "@supabase/supabase-js"
 
 interface ImportMetaEnv {
 	readonly SUPABASE_URL: string
